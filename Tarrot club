@@ -1,0 +1,147 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Elite Fashion House: Hyderabad's premier luxury fashion destination offering timeless elegance, sustainable craftsmanship, and AI-powered personalization for discerning clients. Free shipping over ₹2000.">
+    <meta name="keywords" content="luxury fashion Hyderabad, high-end clothing India, sustainable luxury brands, AI fashion stylist, virtual try-on AR, premium apparel 2026, bespoke fashion Telangana, elite designer accessories">
+    <meta name="author" content="Elite Fashion House Team - Experts in Luxury Digital Experiences">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Elite Fashion House - Timeless Luxury Redefined in 2026">
+    <meta property="og:description" content="Discover AI-personalized luxury collections blending heritage craftsmanship with modern innovation. Sustainable, exclusive designs for the elite.">
+    <meta property="og:image" content="https://picsum.photos/id/1015/1200/630">
+    <meta property="og:url" content="https://yourusername.github.io/elite-fashion/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Elite Fashion House">
+    <meta name="twitter:description" content="AI-driven luxury fashion for modern elites in Hyderabad and beyond.">
+    <meta name="twitter:image" content="https://picsum.photos/id/1015/1200/630">
+    <title>Elite Fashion House - Premium Luxury Fashion 2026</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiRWxpdGUgRmFzaGlvbiBIb3VzZSIsInNob3J0X25hbWUiOiJFbGl0ZSBMdXh1cnkiLCJzdGFydF91cmwiOiIvIiwiaWNvbnMiOlt7InNyYyI6ImRhdGE6aW1hZ2Uvc3ZnK3htbCxzY2FsZT0xLCB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+PHRleHQgeT0iLjllbSIgZm9udC1zaXplPSI5MCI+8J2bPC90ZXh0Pjwvc3ZnPiIsInNpemVzIjoiMjU2eDI1NiIsInR5cGUiOiJpbWFnZS9zdmcreG1sIn1dLCJ0aGVtZV9jb2xvciI6IiMwMDAwMDAiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8U1mb9JRBjDnTb6S3B/6m/ubEyfXAhfS3V5rqeTnw==" crossorigin="anonymous" referrerpolicy="no-referrer" fetchpriority="high" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" fetchpriority="low"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX'); // Replace with actual GA ID
+    </script>
+    <!-- Preload critical assets -->
+    <link rel="preload" as="image" href="https://picsum.photos/id/1015/1920/1080" crossorigin>
+    <link rel="preload" as="video" href="https://assets.mixkit.co/videos/preview/mixkit-fashion-model-with-gold-makeup-25413-large.mp4" type="video/mp4" crossorigin>
+    <link rel="prefetch" href="https://picsum.photos/id/1015/400/500" as="image">
+    <!-- Inline Critical CSS (minified) -->
+    <style>:root{--primary:#000;--secondary:#fff;--accent:#c8102e;--luxury-gold:#d4af37;--gray:#f5f5f5;--dark-gray:#333;--bg:var(--secondary);--text:var(--primary);--transition:all .3s ease;--shadow:0 4px 12px rgba(0,0,0,.08);--shadow-hover:0 12px 24px rgba(0,0,0,.16)}body.dark-mode{--bg:#121212;--text:#fff;--gray:#1e1e1e;--primary:#fff;--secondary:#000}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Helvetica Neue',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;transition:var(--transition)}html{scroll-behavior:smooth}header{position:fixed;top:0;width:100%;z-index:1000;transition:var(--transition)}header.scrolled{box-shadow:var(--shadow)}.header-top{background:var(--primary);color:var(--secondary);font-size:.85rem;padding:8px 5%;display:flex;justify-content:space-between;align-items:center}.header-main{padding:1rem 5%;display:flex;justify-content:space-between;align-items:center}.logo{font-size:1.8rem;font-weight:900;letter-spacing:-1px;color:var(--text);text-decoration:none}nav ul{display:flex;list-style:none}nav ul li{margin:0 1.5rem}nav ul li a{text-decoration:none;color:var(--text);font-weight:600;text-transform:uppercase;font-size:.95rem;position:relative}nav ul li a::after{content:'';position:absolute;width:0;height:2px;bottom:-6px;left:0;background:var(--accent);transition:width .4s}nav ul li a:hover::after{width:100%}.hamburger{display:none;cursor:pointer;font-size:1.5rem;color:var(--text)}.header-right{display:flex;align-items:center;gap:1.8rem}.header-right button{color:var(--text);font-size:1.3rem;cursor:pointer;background:none;border:none}.search-container{position:relative}.search-input{padding:.6rem 2.5rem .6rem 1rem;border:1px solid var(--dark-gray);border-radius:30px;width:220px;transition:width .4s,border .3s;background:var(--bg);color:var(--text)}.search-input:focus{width:280px;border-color:var(--accent);outline:none}.search-btn{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;cursor:pointer;font-size:1.1rem;color:var(--text)}.hero{height:100vh;min-height:700px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}.hero-video{position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;transform:translate(-50%,-50%);object-fit:cover;filter:brightness(.4)}.hero-content{max-width:900px;padding:0 20px;z-index:1;animation:fadeInUp 1.2s ease-out}@keyframes fadeInUp{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}.hero h1{font-size:4.5rem;font-weight:900;letter-spacing:-2px;margin-bottom:1rem;text-transform:uppercase}.hero p{font-size:1.4rem;margin-bottom:2.5rem;font-weight:300}.cta-btn{background:var(--accent);color:#fff;border:none;padding:1rem 3rem;font-size:1.1rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;cursor:pointer;border-radius:50px;transition:var(--transition)}.cta-btn:hover{background:#a00d26;transform:translateY(-4px);box-shadow:0 12px 30px rgba(200,16,46,.3)}section{padding:100px 5%}img{width:100%;height:auto;object-fit:cover;transition:transform .6s ease}.product-card{background:var(--bg);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);transition:var(--transition);position:relative}.product-card:hover{transform:translateY(-10px);box-shadow:var(--shadow-hover)}.product-img-container{height:320px;overflow:hidden}.product-img{transition:transform .6s ease}.product-card:hover .product-img{transform:scale(1.07)}.quick-view,.add-to-wishlist{position:absolute;background:rgba(255,255,255,.9);color:var(--primary);border:none;padding:.8rem 1.6rem;border-radius:50px;font-weight:600;cursor:pointer;opacity:0;transition:opacity .4s}.quick-view{top:40%;left:50%;transform:translate(-50%,-50%)}.add-to-wishlist{top:10px;right:10px;padding:.5rem;font-size:1.2rem}.product-card:hover .quick-view,.product-card:hover .add-to-wishlist{opacity:1}.modal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center;z-index:2000;transition:var(--transition)}.modal-content{background:var(--bg);padding:2rem;border-radius:12px;max-width:600px;text-align:center;position:relative;animation:fadeIn .3s}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.modal-close{position:absolute;top:10px;right:10px;font-size:1.5rem;cursor:pointer;color:var(--text)}@media (max-width:768px){.hero h1{font-size:2.8rem}.product-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}.sidebar{width:100%;right:-100%}.sidebar.open{right:0}}</style>
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div id="cookieBanner" style="position:fixed;bottom:0;left:0;width:100%;background:var(--primary);color:var(--secondary);padding:1rem;text-align:center;z-index:1000;display:none">
+        <p>We use local storage for personalization, cart, and wishlist. <button id="acceptCookies" style="background:var(--accent);color:#fff;border:none;padding:.5rem 1rem;margin-left:1rem;cursor:pointer;border-radius:4px">Accept</button></p>
+    </div>
+
+    <!-- Header -->
+    <header id="header" style="position:fixed;top:0;width:100%;z-index:1000;transition:var(--transition)">
+        <div class="header-top" style="background:var(--primary);color:var(--secondary);font-size:.85rem;padding:8px 5%;display:flex;justify-content:space-between;align-items:center">
+            <span>Free Shipping Over ₹2000 | Hyderabad Exclusive Offers</span>
+            <div>
+                <a href="#contact" style="color:var(--secondary);margin-left:1.2rem;text-decoration:none">Help</a>
+                <a href="#track" style="color:var(--secondary);margin-left:1.2rem;text-decoration:none">Track Order</a>
+            </div>
+        </div>
+        <div class="header-main" style="padding:1rem 5%;display:flex;justify-content:space-between;align-items:center">
+            <a href="#" class="logo" style="font-size:1.8rem;font-weight:900;letter-spacing:-1px;color:var(--text);text-decoration:none">ELITE</a>
+            <nav style="display:flex;align-items:center">
+                <div class="hamburger" id="hamburger" style="display:none;cursor:pointer;font-size:1.5rem;color:var(--text)">☰</div>
+                <ul id="navMenu" style="display:flex;list-style:none">
+                    <li style="margin:0 1.5rem"><a href="#categories" style="text-decoration:none;color:var(--text);font-weight:600;text-transform:uppercase;font-size:.95rem;position:relative">Women</a></li>
+                    <li style="margin:0 1.5rem"><a href="#categories" style="text-decoration:none;color:var(--text);font-weight:600;text-transform:uppercase;font-size:.95rem;position:relative">Men</a></li>
+                    <li style="margin:0 1.5rem"><a href="#categories" style="text-decoration:none;color:var(--text);font-weight:600;text-transform:uppercase;font-size:.95rem;position:relative">Kids</a></li>
+                    <li style="margin:0 1.5rem"><a href="#featured" style="text-decoration:none;color:var(--text);font-weight:600;text-transform:uppercase;font-size:.95rem;position:relative">New</a></li>
+                    <li style="margin:0 1.5rem"><a href="#featured" style="text-decoration:none;color:var(--text);font-weight:600;text-transform:uppercase;font-size:.95rem;position:relative">Sale</a></li>
+                </ul>
+            </nav>
+            <div class="header-right" style="display:flex;align-items:center;gap:1.8rem">
+                <div class="search-container" style="position:relative">
+                    <input type="text" class="search-input" placeholder="Search..." style="padding:.6rem 2.5rem .6rem 1rem;border:1px solid var(--dark-gray);border-radius:30px;width:220px;transition:width .4s,border .3s;background:var(--bg);color:var(--text)">
+                    <button class="search-btn" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;cursor:pointer;font-size:1.1rem;color:var(--text)"><i class="fas fa-search"></i></button>
+                    <button id="voiceSearchBtn" style="background:none;border:none;cursor:pointer;color:var(--text);margin-left:10px"><i class="fas fa-microphone"></i></button>
+                </div>
+                <button id="wishlistBtn" style="color:var(--text);font-size:1.3rem;cursor:pointer;background:none;border:none"><i class="far fa-heart"></i> <span id="wishlistCount">0</span></button>
+                <button id="cartBtn" style="color:var(--text);font-size:1.3rem;cursor:pointer;background:none;border:none"><i class="fas fa-shopping-bag"></i> <span id="cartCount">0</span></button>
+                <button style="color:var(--text);font-size:1.3rem;cursor:pointer;background:none;border:none"><i class="far fa-user"></i></button>
+                <button id="themeToggle" style="color:var(--text);font-size:1.3rem;cursor:pointer;background:none;border:none"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="height:100vh;min-height:700px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff">
+        <video class="hero-video" autoplay muted loop playsinline style="position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;transform:translate(-50%,-50%);object-fit:cover;filter:brightness(.6)">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-fashion-model-with-gold-makeup-25413-large.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content" style="max-width:900px;padding:0 20px;z-index:1;animation:fadeInUp 1.2s ease-out">
+            <h1 style="font-size:4.5rem;font-weight:900;letter-spacing:-2px;margin-bottom:1rem;text-transform:uppercase">New Season Arrivals 2026</h1>
+            <p style="font-size:1.4rem;margin-bottom:2.5rem;font-weight:300">Discover AI-personalized luxury, sustainable designs, and exclusive collections for Hyderabad's elite.</p>
+            <button class="cta-btn" style="background:var(--accent);color:#fff;border:none;padding:1rem 3rem;font-size:1.1rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;cursor:pointer;border-radius:50px;transition:var(--transition)">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- AI Personalization Section -->
+    <section id="ai-stylist" style="padding:100px 5%;background:var(--gray)">
+        <h2 class="section-title" style="text-align:center;font-size:2.8rem;font-weight:900;margin-bottom:3rem;text-transform:uppercase;position:relative">AI-Powered Personal Stylist</h2>
+        <p style="text-align:center;max-width:800px;margin:0 auto 2rem">Our advanced AI analyzes your preferences, viewing history, and style quiz to recommend personalized luxury items.</p>
+        <form id="styleQuiz" style="max-width:600px;margin:0 auto 2rem">
+            <label style="display:block;margin-bottom:1rem">Favorite Category:</label>
+            <select id="favCategory" style="width:100%;padding:1rem;margin-bottom:1rem;border:1px solid var(--dark-gray);border-radius:4px;background:var(--bg);color:var(--text)">
+                <option value="women">Women</option>
+                <option value="men">Men</option>
+                <option value="kids">Kids</option>
+            </select>
+            <label style="display:block;margin-bottom:1rem">Preferred Color:</label>
+            <input type="text" id="prefColor" placeholder="e.g., red" style="width:100%;padding:1rem;margin-bottom:1rem;border:1px solid var(--dark-gray);border-radius:4px;background:var(--bg);color:var(--text)">
+            <label style="display:block;margin-bottom:1rem">Budget Range:</label>
+            <input type="text" id="budgetRange" placeholder="e.g., 2000-5000" style="width:100%;padding:1rem;margin-bottom:1rem;border:1px solid var(--dark-gray);border-radius:4px;background:var(--bg);color:var(--text)">
+            <button type="submit" class="cta-btn" style="width:100%">Get Personalized Recommendations</button>
+        </form>
+        <div id="aiRecommendations" class="product-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2.5rem"></div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" style="padding:100px 5%;background:var(--bg)">
+        <h2 class="section-title" style="text-align:center;font-size:2.8rem;font-weight:900;margin-bottom:3rem;text-transform:uppercase;position:relative">Shop by Category</h2>
+        <div class="category-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem">
+            <div class="category-card" style="position:relative;overflow:hidden;border-radius:12px;box-shadow:var(--shadow);transition:var(--transition);cursor:pointer">
+                <img src="https://picsum.photos/id/1015/500/700" alt="Women's Luxury Fashion - Elegant dresses and accessories" style="width:100%;height:380px;object-fit:cover;transition:transform .6s ease">
+                <div class="category-overlay" style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75),transparent 60%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:2.5rem;color:#fff;font-size:1.8rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;transition:var(--transition)">Women</div>
+            </div>
+            <div class="category-card" style="position:relative;overflow:hidden;border-radius:12px;box-shadow:var(--shadow);transition:var(--transition);cursor:pointer">
+                <img src="https://picsum.photos/id/1016/500/700" alt="Men's Luxury Fashion - Tailored suits and premium footwear" style="width:100%;height:380px;object-fit:cover;transition:transform .6s ease">
+                <div class="category-overlay" style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75),transparent 60%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:2.5rem;color:#fff;font-size:1.8rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;transition:var(--transition)">Men</div>
+            </div>
+            <!-- Add kids and accessories similarly with optimized images -->
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="brands" style="padding:100px 5%;background:var(--gray)">
+        <h2 class="section-title" style="text-align:center;font-size:2.8rem;font-weight:900;margin-bottom:3rem;text-transform:uppercase;position:relative">Curated Luxury Brands</h2>
+        <div class="brand-logos" style="display:flex;justify-content:center;flex-wrap:wrap;gap:2rem;margin-top:2rem">
+            <img src="https://picsum.photos/id/1015/150/50" alt="Farfetch - Global Luxury Platform" style="width:150px;filter:grayscale(100%);transition:filter .3s ease">
+            <img src="https://picsum.photos/id/1016/150/50" alt="SSENSE - High Fashion & Streetwear" style="width:150px;filter:grayscale(100%);transition:filter .3s ease">
+            <img src="https://picsum.photos/id/1018/150/50" alt="Net-a-Porter - Magazine-Style Luxury" style="width:150px;filter:grayscale(100%);transition:filter .3s ease">
+            <img src="https://picsum.photos/id/1019/150/50" alt="Myntra - Personalized Indian Fashion" style="width:150px;filter:grayscale(100%);transition:filter .3s ease">
+            <img src="https://picsum.photos/id/1020/150/50" alt="SKIMS - Mobile-First Luxury" style="width:150px;filter:grayscale(100%);transition:filter .3s ease">
+            <img src="https://picsum.photos/id/1021/150/50" alt="Zalando - AI-Powered European Luxury" style="width:150px;filter:grayscale(100%);transition:filter .3s ease">
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" style="padding:100px 5%;background:var(--bg)">
+        <h2 class="section-title" style="text-align:center;font-size:2.8rem;font-weight:900;margin-bottom:3rem;text-transform:uppercase;position:relative">Client Testimonials</h2>
+        <div class="testimonials" style="display:flex;justify-content:center;flex-wrap:wrap;gap:2rem">
+            <div class="testimonial-card" style="background:var(--bg);border-radius:12px;padding:2rem;box-shadow:var(--shadow);max-width:400px;text-align:center;transition:var(--transition)">
+                <p>"Exceptional luxury wi
