@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Club - Premium Fashion and Lifestyle</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        ul {
+            list-style: none;
+        }
+
+        /* Header */
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            z-index: 1000;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav ul li {
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        .header-icons {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        .search-bar {
+            position: relative;
+        }
+        .search-bar input {
+            padding: 0.5rem 2rem 0.5rem 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 200px;
+        }
+        .search-bar::after {
+            content: '🔍';
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .cart-icon {
+            position: relative;
+            cursor: pointer;
+        }
+        .cart-icon::after {
+            content: attr(data-count);
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background: #ff0000;
+            color: #fff;
+            font-size: 0.7rem;
+            padding: 0.2rem 0.4rem;
+            border-radius: 50%;
+            display: none;
+        }
+        .cart-icon[data-count]:not([data-count="0"])::after {
+            display: block;
+        }
+        .account-icon {
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 70vh;
+            background: url('https://via.placeholder.com/1920x1080?text=Hero+Banner+Image') no-repeat center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero-content {
+            max-width: 50%;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .cta-btn {
+            background: #000;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Product Sections */
+        .section {
+            padding: 4rem 2rem;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .product-card {
+            background: #fff;
+            border: 1px solid #f0f0f0;
+            overflow: hidden;
+            text-align: center;
+        }
+        .product-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 1rem;
+        }
+        .product-name {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        .product-price {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        .add-to-cart {
+            background: #000;
+            color: #fff;
+            padding: 0.75rem;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Cart Modal */
+        .cart-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+        }
+        .cart-content {
+            background: #fff;
+            padding: 2rem;
+            max-width: 500px;
+            width: 90%;
+            border-radius: 8px;
+        }
+        .cart-items {
+            margin-bottom: 2rem;
+        }
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        .close-modal {
+            float: right;
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #f8f8f8;
+            padding: 2rem;
+            text-align: center;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+        .footer-links a {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 1rem;
+            }
+            nav ul {
+                flex-direction: column;
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+            .search-bar input {
+                width: 100%;
+            }
+            .hero {
+                height: 50vh;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Tarot Club</div>
+        <nav>
+            <ul>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kids</li>
+                <li>Sale</li>
+                <li>Collections</li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="cart-icon" data-count="0" onclick="toggleCart()">🛒</div>
+            <div class="account-icon">👤</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Style</h1>
+            <p>Elevate your wardrobe with our latest collections inspired by global trends.</p>
+            <button class="cta-btn">Shop Now</button>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Product+1" alt="Product 1" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Stylish Jacket</h3>
+                    <p class="product-price">$49.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Stylish Jacket', 49.99)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Product+2" alt="Product 2" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Trendy Sneakers</h3>
+                    <p class="product-price">$79.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Trendy Sneakers', 79.99)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Product+3" alt="Product 3" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Elegant Dress</h3>
+                    <p class="product-price">$59.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Elegant Dress', 59.99)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x300?text=Product+4" alt="Product 4" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Casual Shirt</h3>
+                    <p class="product-price">$29.99</p>
+                    <button class="add-to-cart" onclick="addToCart('Casual Shirt', 29.99)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <span class="close-modal" onclick="toggleCart()">&times;</span>
+            <h2>Your Cart</h2>
+            <div class="cart-items" id="cartItems"></div>
+            <p>Total: <span id="cartTotal">$0.00</span></p>
+            <button class="cta-btn">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <p>&copy; 2026 Tarot Club. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let cart = [];
+        const cartIcon = document.querySelector('.cart-icon');
+        const cartModal = document.getElementById('cartModal');
+        const cartItems = document.getElementById('cartItems');
+        const cartTotal = document.getElementById('cartTotal');
+
+        function addToCart(name, price) {
+            cart.push({ name, price });
+            updateCart();
+        }
+
+        function updateCart() {
+            cartIcon.setAttribute('data-count', cart.length);
+            cartItems.innerHTML = '';
+            let total = 0;
+            cart.forEach(item => {
+                const div = document.createElement('div');
+                div.classList.add('cart-item');
+                div.innerHTML = `<span>${item.name}</span><span>\[ {item.price.toFixed(2)}</span>`;
+                cartItems.appendChild(div);
+                total += item.price;
+            });
+            cartTotal.textContent = ` \]{total.toFixed(2)}`;
+        }
+
+        function toggleCart() {
+            cartModal.style.display = cartModal.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+</body>
+  </html
